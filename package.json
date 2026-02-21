@@ -1,7 +1,7 @@
 {
   "name": "portfolio-generator",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://charansaiburra.github.io/portfolio-generator",
   "scripts": {
     "dev": "next dev",
