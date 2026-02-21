@@ -44,7 +44,7 @@ if (loading) {
     "backdrop-blur-md bg-white/20 border-b border-white/30"
   }`}
 >
-  <h1 className="text-2xl font-bold text-blue-600">Charansai</h1>
+  <h1 className="text-2xl font-bold text-black-600">Portfolio</h1>
 
   {/* Desktop Menu */}
  <div className={`hidden md:flex gap-6 font-medium items-center ${
@@ -128,20 +128,20 @@ if (loading) {
   </h1>
 
   <p className="text-xl mb-8">
-    <Typewriter
-      words={[
-        "Full Stack Developer",
-        "AI & ML Student",
-        "React Developer",
-        "Java Backend Developer"
-      ]}
-      loop={true}
-      cursor
-      cursorStyle="|"
-      typeSpeed={70}
-      deleteSpeed={50}
-      delaySpeed={1500}
-    />
+   <Typewriter
+  words={[
+    "Full Stack Developer building scalable web applications",
+    "AI & ML Enthusiast solving real-world problems",
+    "React & Next.js Developer",
+    "Java Backend Developer (Spring Boot)"
+  ]}
+  loop={true}
+  cursor
+  cursorStyle="|"
+  typeSpeed={70}
+  deleteSpeed={50}
+  delaySpeed={1500}
+/>
   </p>
 
   <div className="flex justify-center gap-4 flex-wrap">
@@ -179,32 +179,36 @@ if (loading) {
 </motion.section>
 
       {/* ABOUT */}
-      <section id="about" className="max-w-4xl mx-auto px-6 py-16 text-center">
+      <section id="about" className="scroll-mt-24 max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-semibold mb-6">About Me</h2>
         <p>
-          Passionate Full Stack Developer pursuing B.Tech in AI & ML. 
-          I build scalable web applications using modern technologies 
-          with focus on clean architecture and performance.
-        </p>
+  I am a results-driven Full Stack Developer pursuing B.Tech in Computer Science (AI & ML).
+  I specialize in building scalable web applications using React, Next.js, and Spring Boot.
+  I focus on clean architecture, performance optimization, and real-world problem solving.
+  Passionate about continuous learning and building production-ready systems.
+</p>
       </section>
 {/* PROJECTS */}
-<section id="projects" className="max-w-6xl mx-auto px-6 py-16">
+<section id="projects" className="scroll-mt-24 max-w-6xl mx-auto px-6 py-16">
   <h2 className="text-3xl font-semibold mb-10 text-center">Projects</h2>
 
   <div className="grid md:grid-cols-2 gap-8">
 
     {/* E-Commerce */}
     <div className={`rounded-xl shadow-lg p-8 hover:-translate-y-2 transition duration-300 ${
-      dark ? "bg-gray-800" : "bg-white"
+      dark ? "bg-gray-800" : "bg-black text white"
     }`}>
       <h3 className="text-2xl font-bold text-blue-500 mb-4">
         E-Commerce Store
       </h3>
 
       <p className="mb-4">
-        Full-stack e-commerce platform using React.js, Spring Boot & SQL 
-        with cart, authentication and order management.
-      </p>
+        
+  Designed and developed a full-stack e-commerce platform with authentication,
+  product management, shopping cart, and order processing.
+  Implemented REST APIs using Spring Boot and built a responsive frontend using React.
+  Focused on performance, scalability, and clean code architecture.
+</p>
 
       <div className="flex gap-4 flex-wrap">
 
@@ -229,16 +233,18 @@ if (loading) {
 
     {/* Portfolio Generator */}
     <div className={`rounded-xl shadow-lg p-8 hover:-translate-y-2 transition duration-300 ${
-      dark ? "bg-gray-800" : "bg-white"
+      dark ? "bg-gray-800" : "bg-black text white"
     }`}>
       <h3 className="text-2xl font-bold text-blue-500 mb-4">
         Portfolio Generator
       </h3>
 
       <p className="mb-4">
-        Markdown-based portfolio builder using Next.js & Tailwind CSS 
-        with GitHub deployment support.
-      </p>
+       
+  Built a Markdown-based portfolio generator using Next.js and Tailwind CSS.
+  Integrated GitHub Pages deployment with static export configuration.
+  Implemented dynamic theme switching, animations, and SEO optimization.
+</p>
 
       <div className="flex gap-4 flex-wrap">
 
@@ -267,7 +273,7 @@ if (loading) {
 </section>
 
       {/* SKILLS */}
-      <section id="skills" className="max-w-4xl mx-auto px-6 py-16 text-center">
+      <section id="skills" className="scroll-mt-24 max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-semibold mb-8">Skills</h2>
 
         <div className="flex flex-wrap justify-center gap-4">
@@ -292,7 +298,7 @@ if (loading) {
       </section>
 
       {/* EXPERIENCE */}
-      <section id="experience" className="max-w-5xl mx-auto px-6 py-16 text-center">
+      <section id="experience"className="scroll-mt-24 max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-semibold mb-10">Experience</h2>
 
         <div className={`rounded-xl shadow-lg p-8 ${
@@ -308,14 +314,14 @@ if (loading) {
         </div>
       </section>
 {/* CERTIFICATIONS */}
-<section id="certifications" className="max-w-6xl mx-auto px-6 py-16 text-center">
+<section id="certifications" className="scroll-mt-24 max-w-6xl mx-auto px-6 py-16">
   <h2 className="text-3xl font-semibold mb-10">Certifications & Achievements</h2>
 
   <div className="grid md:grid-cols-3 gap-8">
 
     {/* Math Relay Winner */}
     <div className={`rounded-xl shadow-lg p-6 border-2 border-yellow-400 ${
-      dark ? "bg-gray-800" : "bg-white"
+      dark ? "bg-gray-800" : "bg-black text white"
     }`}>
       <h3 className="font-bold text-lg mb-2 text-yellow-500">
         🏆 Math Relay Winner
@@ -337,9 +343,9 @@ if (loading) {
 
     {/* Java Certificate */}
     <div className={`rounded-xl shadow-lg p-6 ${
-      dark ? "bg-gray-800" : "bg-white"
+      dark ? "bg-gray-800" : "bg-black text white"
     }`}>
-      <h3 className="font-bold text-lg mb-2">Java Programming</h3>
+      <h3 className="font-bold text-lg mb-2 text-blue-500">Java Programming</h3>
       <p className="mb-4">CodeTantra Certification</p>
 
       <a
@@ -355,9 +361,9 @@ if (loading) {
 
     {/* UI/UX Certificate */}
     <div className={`rounded-xl shadow-lg p-6 ${
-      dark ? "bg-gray-800" : "bg-white"
+      dark ? "bg-gray-800" : "bg-black text white"
     }`}>
-      <h3 className="font-bold text-lg mb-2">UI/UX Design Challenge</h3>
+      <h3 className="font-bold text-lg mb-2 text-blue-500">UI/UX Design Challenge</h3>
       <p className="mb-4">CSI KARE</p>
 
       <a
@@ -371,6 +377,17 @@ if (loading) {
       </a>
     </div>
 
+  </div>
+</section>
+<section id="achievements" className="scroll-mt-24 max-w-5xl mx-auto px-6 py-16 text-center">
+  <h2 className="text-3xl font-semibold mb-8">Achievements</h2>
+
+  <div className="rounded-2xl p-8 backdrop-blur-md bg-white/10 border border-white/20 shadow-xl">
+    <h3 className="text-xl font-bold mb-3">🏆 Math Relay Winner</h3>
+    <p>
+      Secured Winner position in inter-college Math Relay competition,
+      demonstrating strong analytical thinking and problem-solving skills.
+    </p>
   </div>
 </section>
 {/* GITHUB STATS */}
@@ -396,48 +413,58 @@ if (loading) {
   </div>
 </section>
       {/* CONTACT */}
-<section id="contact" className="py-20 bg-blue-600 text-white">
+<section id="contact" className="scroll-mt-24 max-w-6xl mx-auto px-6 py-16">
   <h2 className="text-3xl font-semibold mb-8 text-center">Contact Me</h2>
+<form
+  onSubmit={(e) => {
+    e.preventDefault()
 
-  <form
-    action="mailto:charansaiburra5@gmail.com"
-    method="POST"
-    encType="text/plain"
-    className="max-w-xl mx-auto flex flex-col gap-4"
-  >
-    <input
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      required
-      className="p-3 rounded-lg text-black"
-    />
+    const form = e.currentTarget
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value
 
-    <input
-  type="text"
-  name="name"
-  placeholder="Your Name"
-  required
-  autoComplete="off"
-  suppressHydrationWarning
-  className="p-3 rounded-lg text-black"
-/>
-    <textarea
-      name="message"
-      placeholder="Your Message"
-      rows={4}
-      required
-      className="p-3 rounded-lg text-black"
-    ></textarea>
-
-    <button
-  type="submit"
-  suppressHydrationWarning
-  className="bg-black text-white py-3 rounded-lg hover:scale-105 transition"
+    window.location.href =
+      "mailto:charansaiburra5@gmail.com?subject=Portfolio Contact&body=" +
+      encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+      )
+  }}
+  className="max-w-xl mx-auto flex flex-col gap-4"
 >
-  Send Message
-</button>
-  </form>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+    autoComplete="off"
+   className="p-3 rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+    autoComplete="off"
+   className="p-3 rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+
+<textarea
+  name="message"
+  placeholder="Your Message"
+  rows={4}
+  required
+  className="p-3 rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+></textarea>
+
+  <button
+    type="submit"
+    className="bg-black text-white py-3 rounded-lg hover:scale-105 transition"
+  >
+    Send Message
+  </button>
+</form>
 
   <p className="text-center mt-8">📍Anantapur, Andhra Pradesh, India-515721</p>
 </section>
