@@ -9,7 +9,7 @@ export default function Home() {
   const [dark, setDark] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const { scrollYProgress } = useScroll()
-  const [loading, setLoading] = useState(true)
+  /**const [loading, setLoading] = useState(true)
 
 useEffect(() => {
   const timer = setTimeout(() => {
@@ -24,7 +24,7 @@ if (loading) {
       Charansai Burra
     </div>
   )
-}
+**/
   return (
   <main
     className={`min-h-screen transition-all duration-500 ${
